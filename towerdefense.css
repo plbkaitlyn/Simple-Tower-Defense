@@ -1,0 +1,55 @@
+.mapCell {
+    background-color: #e8e3e3;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ffffff;
+}
+.controlPanel {
+    background-color: #ffffff;
+    position: absolute;
+    top: 10px;
+    left: 610px;
+    width: 200px;
+    height: 120px;
+    border: 1px solid #e8e3e3;
+    padding: 5px;
+    font-family: 'Comic Sans MS';
+    font-size: 12px;
+    text-align: center;
+}
+.enemy {
+    background-image: url(enemy.gif);
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 0px;
+    left: 0px;
+}
+.panelImage {
+    vertical-align: middle;            
+}
+.panelButton {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    font-family: 'Comic Sans MS';
+    font-size: 12px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.gameOver {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    width: 200px;
+    background-color: #0d4f18;
+    color: #ffffff;
+    text-align: center;
+    padding: 40px;
+    font-family: 'Comic Sans MS' ;
+    font-size: 18px;
+}
