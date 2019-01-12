@@ -1,32 +1,18 @@
-.mapCell {
-    background-color: #e8e3e3;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 20px;
-    height: 20px;
-    border: 1px solid #ffffff;
+body {
+    margin: 0px;
+    padding: 0px;
 }
 .controlPanel {
     background-color: #ffffff;
     position: absolute;
     top: 10px;
-    left: 610px;
-    width: 200px;
-    height: 120px;
+    left: 410px;
+    width: 120px;
+    height: 65px;
     border: 1px solid #e8e3e3;
     padding: 5px;
     font-family: 'Comic Sans MS';
     font-size: 12px;
-    text-align: center;
-}
-.enemy {
-    background-image: url(enemy.gif);
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    top: 0px;
-    left: 0px;
 }
 .panelImage {
     vertical-align: middle;            
@@ -45,8 +31,7 @@
     position: absolute;
     top: 200px;
     left: 200px;
-    width: 200px;
-    background-color: #0d4f18;
+    width: 200px;    
     color: #ffffff;
     text-align: center;
     padding: 40px;
